@@ -12,8 +12,10 @@ FEATURES
 - *Meal Planner*: Plan meals for the week and receive tailored recipe suggestions.
 - *Ingredient Substitutions*: Suggestions for alternative ingredients in recipes.
 - *Step-by-Step Cooking Mode*: Guided instructions to follow while cooking.
+  
 LIVE SERVER
 You can view the web live on Recipe App
+Render:https://phase-1-recipe-app-project.onrender.com
 
 KNOWN BUGS
 The application works perfectly well, no bugs.
