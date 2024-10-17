@@ -16,15 +16,17 @@ FEATURES
 LIVE SERVER
 You can view the web live on Recipe App
 Render:https://phase-1-recipe-app-project.onrender.com
+Github:https://brookbraxton.github.io/Phase-1-recipe-app-project/
+
 
 KNOWN BUGS
 The application works perfectly well, no bugs.
 
 TECHNOLOGIES USED
-HTML
-CSS
-JAVASCRIPT
-BOOTSTRAP
+-HTML
+-CSS
+-JAVASCRIPT
+-BOOTSTRAP
 
 Support and contact details
 email : roselynewairimu30@gmail.com
