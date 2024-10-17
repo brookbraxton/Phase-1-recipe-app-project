@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Home Screen -->
+    <div class="home-screen">
+        <header>
+            <h1>Recipe App</h1>
+            <input type="text" placeholder="Search for recipes..." class="search-bar">
+        </header>
+
+        <section class="categories">
+            <h2>Categories</h2>
+            <ul>
+                <li><a href="#">Lunch</a></li>
+                <li><a href="#">Dinner</a></li>
+                <li><a href="#">Dessert</a></li>
+                <li><a href="#">Breakfast</a></li>
+            </ul>
+        </section>
+
+        <section class="featured-recipes">
+            <h2>Featured Recipes</h2>
+            <div class="recipe-list">
+                <div class="recipe-card">
+                    <img src="image copy.png" alt="Recipe 1">
+                    <p>Spaghetti</p>
+                </div>
+                <div class="recipe-card">
+                    <img src="download.jpg" alt="Recipe 2">
+                    <p>Chicken Masala Fry</p>
+                </div>
+                <div class="recipe-card">
+                    <img src="images.jpg" alt="Recipe 3">
+                    <p>Fruit Salad</p>
+                </div>
+            </div>
+        </section>
+
+        <nav class="bottom-nav">
+            <a href="#">Home</a>
+            <a href="#">Search</a>
+            <a href="#">Favorites</a>
+            <a href="#">Cart</a>
+            <a href="#">Profile</a>
+        </nav>
+    </div>
+       
+    <!-- Recipe List Screen -->
+    <div class="recipe-list-screen">
+        <header>
+            <button class="back-btn">Back</button>
+            <h1>Search Results</h1>
+        </header>
+
+        <div class="filter-sort">
+            <button id="filterBtn">Filter</button>
+            <button id="sortBtn">Sort</button>
+        </div>
+
+        <section class="recipe-results">
+            <div class="recipe-item">
+                <img src="image copy.png" alt="Recipe 1">
+                <div class="recipe-info">
+                    <h3>Spaghetti</h3>
+                    <button onclick="showRecipeDetails(1)">View Recipe</button>
+                </div>
+            </div>
+            <div class="recipe-item">
+                <img src="download.jpg" alt="Recipe 2">
+                <div class="recipe-info">
+                    <h3>Chicken Caesar Salad</h3>
+                    <button onclick="showRecipeDetails(2)">View Recipe</button>
+                </div>
+            </div>
+            <div class="recipe-item">
+                <img src="images.jpg" alt="Recipe 3">
+                <div class="recipe-info">
+                    <h3>Fruit Salad</h3>
+                    <button onclick="showRecipeDetails(3)">View Recipe</button>
+                </div>
+            </div>
+        </section>
+
+        <div id="recipe-details" style="display:none;">
+            <!-- Recipe details will be dynamically populated here -->
+        </div>
+    </div>
+
+    <!-- Shopping List Screen -->
+    <div class="shopping-list-screen">
+        <header>
+            <h1>Shopping List</h1>
+        </header>
+    
+        <section class="shopping-list">
+            <ul id="shoppingItems">
+                <!-- Items will be dynamically added here -->
+                <li>Grapes</li>
+                <li>Watermelon</li>
+                <li>Apple</li>
+                <li>Oranges</li>
+                <li>Banana</li>
+                <li>Strawberries</li>               
+                <li>Chicken</li>
+                <li>Yogurt</li>
+                <li>Turmeric</li>
+                <li>Chili powder</li>               
+                <li>Coriander</li>
+                <li>Cumin powder</li>
+                <li>Lemon Juice</li>
+                <li>Oil</li>                   
+                <li>Coriander leaves</li> 
+            </ul>
+        </section>
+    
+        <div class="shopping-list-actions">
+            <button id="clearAllBtn">Clear All</button>
+            <button id="markPurchasedBtn">Mark as Purchased</button>
+            <button id="addToShoppingListBtn">Add Ingredients</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

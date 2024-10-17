@@ -1,0 +1,135 @@
+{
+  "recipes": [
+    {
+      "id": "2",
+      "title": "Chicken Masala Fry",
+      "description": "Chicken Masala Fry is a tantalizing dish that blends tender pieces of chicken with a rich aromatic spice mix.",
+      "ingredients": [
+        "Chicken: 500 grams, cut into small pieces",
+        "Yogurt: 1/2 cup",
+        "Turmeric powder: 1/2 teaspoon",
+        "Red chili powder: 1 teaspoon (adjust to taste)",
+        "Coriander powder: 1 teaspoon",
+        "Cumin powder: 1/2 teaspoon",
+        "Garam masala: 1 teaspoon",
+        "Ginger-garlic paste: 1 tablespoon",
+        "Salt: To taste",
+        "Lemon juice: 1 tablespoon",
+        "Oil: For frying",
+        "Fresh coriander leaves: For garnish"
+      ],
+      "instructions": [
+        "In a bowl, marinate chicken with yogurt, turmeric, red chili powder, coriander powder, cumin powder, ginger-garlic paste, and salt. Let it sit for at least 30 minutes.",
+        "Heat oil in a pan over medium heat.",
+        "Add the marinated chicken and cook until browned and fully cooked through.",
+        "Stir in garam masala and lemon juice. Cook for an additional 2-3 minutes.",
+        "Garnish with fresh coriander leaves and serve hot."
+      ],
+      "image": "download.jpg",
+      "category": "Dinner"
+    },
+    {
+      "id": "3",
+      "title": "Fruit Salad",
+      "description": "Fruit Salad is a vibrant, refreshing mix of various fruits, creating a delightful burst of colors, flavors, and textures.",
+      "ingredients": [
+        "Watermelon: 1 cup, diced",
+        "Apple: 1, cored and diced",
+        "Oranges: 1, peeled and segmented",
+        "Grapes: 1 cup, halved",
+        "Strawberries: 1 cup, hulled and sliced",
+        "Banana: 1, sliced"
+      ],
+      "instructions": [
+        "In a large bowl, combine all the diced fruits.",
+        "Gently toss the fruits together to mix.",
+        "Serve immediately, or refrigerate for a short while before serving for a chilled treat."
+      ],
+      "image": "images.jpg",
+      "category": "Dessert"
+    },
+    {
+      "id": "4",
+      "title": "Pancakes",
+      "description": "Pancakes are fluffy, golden-brown discs of breakfast joy.",
+      "ingredients": [
+        "All-purpose flour: 1 cup",
+        "Baking powder: 2 teaspoons",
+        "Sugar: 1 teaspoon",
+        "Salt: 1/2 teaspoon",
+        "Milk: 1 cup",
+        "Eggs: 1 large",
+        "Butter: 2 tablespoons, melted"
+      ],
+      "instructions": [
+        "In a bowl, whisk together flour, baking powder, sugar, and salt.",
+        "In another bowl, beat the egg and mix in the milk and melted butter.",
+        "Pour the wet ingredients into the dry ingredients and stir until just combined. Do not overmix.",
+        "Heat a skillet over medium heat and lightly grease it.",
+        "Pour 1/4 cup of batter onto the skillet for each pancake. Cook until bubbles form on the surface, then flip and cook until golden brown on the other side.",
+        "Serve warm with syrup, fruits, or your favorite toppings."
+      ],
+      "image": "pancakes.jpg",
+      "category": "Breakfast"
+    }
+  ]
+}
+
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Lunch"
+    },
+    {
+      "id": "2",
+      "name": "Dinner"
+    },
+    {
+      "id": "3",
+      "name": "Dessert"
+    },
+    {
+      "id": "4",
+      "name": "Breakfast"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Alicia Keys",
+      "email": "alicia@gmail.com",
+      "favorites": [3]
+    },
+    {
+      "id": "2",
+      "name": "Toni Braxton",
+      "email": "toni@gmail.com",
+      "favorites": [4]
+    },
+    {
+      "id": "3",
+      "name": "John Doe",
+      "email": "john.doe@gmail.com",
+      "favorites": [2]
+    },
+    {
+      "id": "4",
+      "name": "Jane Smith",
+      "email": "jane.smith@gmail.com",
+      "favorites": [1]
+    },
+    {
+      "id": "5",
+      "name": "Michael Johnson",
+      "email": "michael.johnson@gmail.com",
+      "favorites": [3]
+    },
+    {
+      "id": "6",
+      "name": "Emily Davis",
+      "email": "emily.davis@gmail.com",
+      "favorites": [1]
+    }
+  ]
+}
