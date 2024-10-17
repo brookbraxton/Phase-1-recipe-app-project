@@ -1,3 +1,6 @@
+fetch('http://localhost:3000/recipes')
+  .then((response) => response.json())
+  .then((json) => console.log(json));
 // API URL
 const apiUrl = 'http://localhost:3000/recipes';
 
@@ -225,4 +228,7 @@ document.addEventListener('DOMContentLoaded', () => {
   fetchRecipes(); // Fetch and display recipes
 });
 
+fetch('http://localhost:3000/categories')
+  .then((response) => response.json())
+  .then((json) => console.log(json));
   
