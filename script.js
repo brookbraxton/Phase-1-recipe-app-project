@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/recipes')
+fetch('https://phase-1-recipe-app-project.onrender.com')
   .then((response) => response.json())
   .then((json) => console.log(json));
 // API URL
@@ -228,7 +228,7 @@ document.addEventListener('DOMContentLoaded', () => {
   fetchRecipes(); // Fetch and display recipes
 });
 
-fetch('http://localhost:3000/categories')
+fetch('https://phase-1-recipe-app-project.onrender.com')
   .then((response) => response.json())
   .then((json) => console.log(json));
   
