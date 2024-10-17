@@ -16,9 +16,9 @@ FEATURES
 LIVE SERVER
 You can view the web live on Recipe App
 Render:https://phase-1-recipe-app-project.onrender.com
-Github:https://brookbraxton.github.io/Phase-1-recipe-app-project/
-
-
+Github :https://brookbraxton.github.io/Phase-1-recipe-app-project/
+       :https://www.canva.com/design/DAGT3WbstTg/KbchyzhN63uAnG5QPqOuDg/edit?utm_content=DAGT3WbstTg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+       
 KNOWN BUGS
 The application works perfectly well, no bugs.
 
